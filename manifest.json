@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Allowlist Connectivity Tester",
+  "version": "1.0",
+  "description": "Tests connectivity to a predefined list of Google allowlist URLs.",
+  "host_permissions": [
+    "https://tools.google.com/",
+    "https://edgedl.me.gvt1.com/",
+    "https://dl.google.com/",
+    "https://m.google.com/",
+    "https://clients3.google.com/",
+    "https://www.googleapis.com/",
+    "https://accounts.google.com/",
+    "https://www.google.com/",
+    "https://www.gstatic.com/",
+    "https://ssl.gstatic.com/",
+    "https://chromeos-ca.gstatic.com/",
+    "http://connectivitycheck.gstatic.com/",
+    "http://www.gstatic.com/",
+    "http://accounts.google.com/",
+    "http://tools.google.com/",
+    "http://dl-ssl.google.com/",
+    "http://m.google.com/",
+    "http://clients1.google.com/",
+    "http://clients2.google.com/",
+    "http://clients3.google.com/",
+    "http://clients4.google.com/",
+    "http://clients6.google.com/",
+    "http://remotedesktop.google.com/",
+    "http://pack.google.com/",
+    "http://policies.google.com/",
+    "http://safebrowsing.google.com/",
+    "http://chrome.google.com/",
+    "http://mtalk.google.com/"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
